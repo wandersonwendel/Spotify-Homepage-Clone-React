@@ -1,5 +1,12 @@
 /* HEADER */
 
+.main-container{
+    max-width: 800vw; 
+    max-height: 100vh; 
+    margin-left: 320px;
+    margin-right: 56px;
+}
+
 .header__navigation{
     display: flex;
     justify-content: space-between; 
@@ -84,6 +91,8 @@
     border: none;
     background-color: #fff;
 }
+
+
 
 /* HOVER */
   

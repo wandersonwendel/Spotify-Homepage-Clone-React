@@ -1,0 +1,42 @@
+/* Estilos para telas pequenas (ex: smartphones) */
+@media screen and (max-width: 600px){
+
+    .navigation 
+    .arrow-left,
+    .arrow-right{
+        display: none;
+    }
+
+    .header__search{
+        padding: 0px 0px 0px 12px;
+    }
+    
+    .header__search input{
+        width: 0;
+        padding: 0;
+    }
+}
+
+
+/* Estilos para telas médias (ex: tablets) */
+@media screen and (min-width: 601px) and (max-width: 992px){
+    
+}
+
+
+/* Estilos para telas grandes (ex: desktops e laptops) */
+@media screen and (min-width: 601px) and (max-width: 992px){
+    
+}
+
+
+/* Estilos para telas grandes (ex: desktops e laptops) */
+@media screen and (min-width: 993px){
+    
+}
+
+@media screen and (max-width: 1015px){
+    .offer__list-item{ /* Classe que carrega o display grip que define quantas colunas terá na tela */
+        grid-template-columns: 1fr 1fr; /* Nesta resolução, apenas dois cards irão aparecer */
+    }
+}
